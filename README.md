@@ -4,23 +4,23 @@
 
 ColorPicker based on [`<TextField />`](http://www.material-ui.com/#/components/text-field) and `<ChromePicker />` from [`react-color`](https://github.com/casesandberg/react-color/) and its [redux-form](https://redux-form.com) field component.
 
-## Demo
+<!-- ## Demo
 
-[https://material-ui-color-picker.now.sh/](https://material-ui-color-picker.now.sh/)
+[https://material-ui-color-picker.now.sh/](https://material-ui-color-picker.now.sh/) -->
 
 ## Installation
 
-For material-ui (v1):
+For mui (v5):
 
 ```sh
-npm install --save material-ui-color-picker
+npm install --save mui-color-picker
 ```
 
 ## Usage
 
 ```js
 import React from 'react'
-import ColorPicker from 'material-ui-color-picker'
+import ColorPicker from 'mui-color-picker'
 
 <ColorPicker
   name='color'
@@ -34,7 +34,7 @@ import ColorPicker from 'material-ui-color-picker'
 ```js
 import React, { Component } from 'react';
 import { reduxForm, Field } from 'redux-form';
-import { ColorPickerField } from 'material-ui-color-picker';
+import { ColorPickerField } from 'mui-color-picker';
 
 ...
 <Field
@@ -49,4 +49,4 @@ There is not so much properties at this time. The was very quickly designed for 
 
 ## License
 
-This library is licensed under the [MIT Licence](LICENSE), and sponsored by [iGLOO](https://igloo.be).
+This library is licensed under the [MIT Licence](LICENSE).
