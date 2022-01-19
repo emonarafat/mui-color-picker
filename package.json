@@ -1,7 +1,7 @@
 {
   "name": "mui-color-picker",
   "version": "3.5.1",
-  "description": "<ColorInput> component for material-ui v5",
+  "description": "<ColorInput> component for material-ui v5 forked from Loic Mahieu,",
   "main": "lib/index.js",
   "scripts": {
     "test": "npm run lint",
@@ -28,12 +28,12 @@
     "picker",
     "selector"
   ],
-  "author": "Loic Mahieu",
+  "author": "Loic Mahieu,Yaseer Arafat",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/loicmahieu/material-ui-color-picker/issues"
+    "url": "https://github.com/emonarafat/mui-color-picker/issues"
   },
-  "homepage": "https://github.com/loicmahieu/material-ui-color-picker#readme",
+  "homepage": "https://github.com/emonarafat/mui-color-picker#readme",
   "devDependencies": {
     "@babel/cli": "^7.8.3",
     "@babel/core": "^7.8.3",

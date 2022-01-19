@@ -1,7 +1,7 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
-import { ThemeProvider, StyledEngineProvider } from '@mui/styles';
+import { ThemeProvider, StyledEngineProvider } from '@mui/styles'
 
 import ColorPicker from '../src'
 
@@ -13,7 +13,7 @@ class Controlled extends React.Component {
     action('changed')(value)
   }
 
-  render () {
+  render() {
     return (
       <StyledEngineProvider injectFirst>
         <ThemeProvider theme={{}}>
@@ -26,7 +26,7 @@ class Controlled extends React.Component {
           <button onClick={() => this.handleChange('#00ff00')}>set #00ff00</button>
         </ThemeProvider>
       </StyledEngineProvider>
-    );
+    )
   }
 }
 
